@@ -1,0 +1,22 @@
+{
+  "name": "sbom-lite",
+  "version": "0.1.0",
+  "description": "A CycloneDX software bill of materials from your package-lock.json, with nothing to install.",
+  "type": "module",
+  "bin": {
+    "sbom-lite": "sbom-lite.mjs"
+  },
+  "files": ["sbom-lite.mjs", "README.md", "LICENSE"],
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "test": "node --test"
+  },
+  "keywords": ["sbom", "cyclonedx", "npm", "package-lock", "supply-chain", "compliance", "cli"],
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tick-ai/sbom-lite.git"
+  }
+}
